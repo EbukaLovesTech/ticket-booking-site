@@ -1,0 +1,62 @@
+.bgWrap {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.header {
+    padding: 0 0.7rem;
+
+}
+
+.header_child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket_link {
+    color: var(--white);
+    background: var(--black);
+    border-radius: var(--b_radius);
+    padding: var(--link_padding);
+    font-weight: var(--link_weight);
+}
+
+.footer {
+    background: var(--light-pink);
+    padding: 4rem 0.7rem 1rem;
+}
+
+.footer svg {
+    width: 30px;
+    height: 30px;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.footer_logo p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer_logo p span {
+    display: block;
+}
+
+.socials p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.socials {
+    padding-top: 1rem;
+}
