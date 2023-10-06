@@ -1,10 +1,9 @@
 :root {
-  --light-yellow: #EBEBD3;
-  --light-pink: #E8D7E4;
-  --black: black;
-  --white: white;
+  --body-bg-color: black;
+  --text-color: white;
   --b_radius: 25px;
   --title_size: 10.5vw;
+  --list-size: 11vw;
   --link_padding: 0.5rem 0.8rem;
   --link_weight: 600
 }
@@ -26,7 +25,9 @@ body {
 }
 
 body {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  background: var(--body-bg-color);
+  color: var(--text-color);
 }
 
 a {

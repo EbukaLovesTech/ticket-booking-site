@@ -13,8 +13,7 @@
 
 .header_child {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
 .ticket_link {
@@ -33,6 +32,7 @@
 .footer svg {
     width: 30px;
     height: 30px;
+    fill: var(--text-color);
 }
 
 .footer_logo {

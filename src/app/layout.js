@@ -5,7 +5,7 @@ import Header from '@/components/header'
 import Image from 'next/image'
 import Script from 'next/script'
 import style from './layout.module.css';
-import gradientBg from '../../public/gradient_bg.png'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,24 +19,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div>
-          <div className={style.bgWrap}>
-            <Image
-              src={gradientBg}
-              alt='Gradient'
-              quality={100}
-              fill
-              sizes="100vw"
-              style={{
-                objectFit: 'cover',
-              }}
-              priority
-            />
-          </div>
           <Header style={style} />
           {children}
           <footer className={style.footer}>
             <div className={style.footer_logo}>
-              <Image src='/logo_white.png' width={100} height={100} alt='logo' />
+              <Image src='/logo.png' width={100} height={100} alt='logo' />
               <p>
                 <span>Night Of Entertainers</span>
                 <span>Concert 0.1 </span></p>

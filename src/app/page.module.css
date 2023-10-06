@@ -8,41 +8,59 @@
   margin-top: 0;
 }
 
-.img_wrapper {
-  padding: 0 0.7rem;
-  display: flex;
-  justify-content: center;
+.section_2 {
+  padding: 6rem 1rem 2rem;
 }
 
-.section_2 {
-  background: var(--light-pink);
-  padding: 6rem 0 0;
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px groove var(--text-color);
+  padding-bottom: 2rem;
+}
+
+.list li {
+  font-size: var(--list-size);
 }
 
 .ticket_section {
   padding: 6rem 0;
-  background: var(--light-yellow);
 }
 
 .tickets_type>div {
-  padding: 0 0.7rem;
+  padding: 0 2rem;
   margin-bottom: 3rem;
 }
 
 .ticket,
-.ticket+p {
-  font-size: 1rem;
+.ticket+p,
+.details {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .book_ticket {
   border-radius: var(--b_radius);
   padding: var(--link_padding);
   font-weight: var(--title_size);
-  background: var(--black);
+  background: var(--body-bg-color);
   color: var(--white);
   margin-top: 0.8rem;
 }
 
-.ticket_details {
-  padding: 0.8rem 0;
+.ticket_details,
+.details {
+  padding: 1rem 0;
+}
+
+.event_details {
+  padding: 0 2rem;
+}
+
+.map iframe {
+  border: 0;
+  width: 90vw;
+  height: 400px;
 }
