@@ -7,8 +7,8 @@ export default function Header({ style }) {
                 <div>
                     <Image
                         src='/logo.png'
-                        width={120}
-                        height={120}
+                        width={170}
+                        height={170}
                         alt='Logo'
                     />
                 </div>

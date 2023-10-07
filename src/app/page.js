@@ -11,10 +11,10 @@ export default function Home() {
       <div>
         <section className={style.intro_section} >
           <h1 className={myFont.className}>NIGHT OF ENTERTAINERS CONCERT 0.1</h1>
-          <div className={style.img_wrapper}>
+          <div className={style.banner_wrapper}>
             <Image
-              src='/banner.jpeg'
-              alt='Night of entertainers concert 0.1'
+              src='/concert_banner.jpeg'
+              alt='Night of entertainers concert banner'
               width={800}
               height={800}
               priority
@@ -69,12 +69,14 @@ export default function Home() {
         </section>
         <section className={style.event_details}>
           <h2 className={myFont.className}>Concert Date and Venue</h2>
-          <div className={style.details}>
-            <p>Date: 30th Dec 2023</p>
-            <p>Venue: Cm Comfort Hotel And Suites Awkuzu</p>
-          </div>
-          <div className={style.map}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1620134696827!2d6.93712757402618!3d6.242367893745954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104385b46847a9e1%3A0x15441a473a259e4f!2scm%20comfort%20hotel%20%26%20suites%20limited!5e0!3m2!1sen!2sng!4v1696611030893!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div className={style.map_section}>
+            <div className={style.details}>
+              <p>Date: 30th Dec 2023</p>
+              <p>Venue: Cm Comfort Hotel And Suites Awkuzu</p>
+            </div>
+            <div className={style.map}>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1620134696827!2d6.93712757402618!3d6.242367893745954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104385b46847a9e1%3A0x15441a473a259e4f!2scm%20comfort%20hotel%20%26%20suites%20limited!5e0!3m2!1sen!2sng!4v1696611030893!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </section>
       </div>

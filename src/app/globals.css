@@ -1,9 +1,10 @@
 :root {
   --body-bg-color: black;
-  --text-color: white;
-  --b_radius: 25px;
-  --title_size: 10.5vw;
-  --list-size: 11vw;
+  --text-color: #f3dcad;
+  --list-color: #e3d5b7;
+  --b_radius: 10px;
+  --title_size: 8vw;
+  --list-size: 9vw;
   --link_padding: 0.5rem 0.8rem;
   --link_weight: 600
 }
